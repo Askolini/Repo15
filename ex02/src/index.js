@@ -4,11 +4,12 @@ function checkVariableScope() {
     let i = "function variable";
 
     if (true) {
-        i = "block variable";
+        let i = "block variable";
         console.log("Scope i is: ", i);
     }
     
     console.log("Scope i is: ", i);
+    
     return i;
 }
 
