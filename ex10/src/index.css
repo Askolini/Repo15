@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+nav li {
+    display: inline;
+}
+
+#sign_in {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #4285F4;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+#sign_in a {
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.nav-links {
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    font-size: 15px;
+    display: inline-flex;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.google-image img {
+    flex: 1;
+}
+
+#google_logo img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#form-search {
+    display: block;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    position: center;
+    border: 2px transparent rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+#buttons {
+    display: flex;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#buttons button {
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    background: #eeeeee;
+    font-size: 12px;
+    margin-top: auto;
+}
+
+footer li {
+    display: inline-block;
+}
+
+#footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-left: 5px;
+    flex: 1;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-right: 5px;
+    flex: 1;
+}
+
+footer a {
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+    margin: 25px 10px 25px 10px;
+}
